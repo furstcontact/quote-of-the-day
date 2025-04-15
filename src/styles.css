@@ -1,0 +1,70 @@
+.milonga-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/160/original/misty-landscape-with-forest-covered-with-fog-dark-storm-clouds.jpg?1744683831");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.container {
+  margin: 100px auto;
+  max-width: 800px;
+}
+
+h1 {
+  color: #000000;
+  font-family: "Milonga", serif;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.generator {
+  padding: 15px;
+  width: 50%;
+  font-size: 1em;
+  line-height: 1.5;
+  border: 2px solid rgba(39, 33, 66, 0.5);
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 25px;
+  background-color: #dfd4db23;
+}
+
+.submit-button {
+  margin-left: 15px;
+  background-color: #56264623;
+  width: 20%;
+  border-radius: 25px;
+}
+
+.quote {
+  padding: 20px;
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #000000;
+  font-family: "Milonga", serif;
+  text-align: center;
+  margin-top: 20px;
+  border-left: 5px solid #000000;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 30px;
+  text-align: center;
+}
+
+form {
+  padding: 40px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
