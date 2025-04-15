@@ -1,8 +1,12 @@
 function generateQuote(event) {
   event.preventDefault();
 
-  let quoteElement = document.querySelector("#quote");
-  quoteElement.innerHTML = "Finding a quote for you...";
+  new Typewriter("#quote", {
+    strings: "Generating a quote...",
+    autoStart: true,
+    delay: 1,
+    cursor: "",
+  });
 }
 
 let quoteTopicElement = document.queryselector("quote-topic");
