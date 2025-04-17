@@ -20,22 +20,25 @@
         <h1>Gloomy Quote of the Day</h1>
       </header>
       <main>
-        <form id="quote-topic">
-          <input
-            type="text"
-            placeholder="Enter a topic"
-            class="generator"
-            id="user-input"
-            class="instruction"
-          />
-          <input
-            type="submit"
-            value="Get Quote"
-            placeholder="Get Quote"
-            class="submit-button"
-          />
-        </form>
-        <div class="quote" id="quote"></div>
+        <div class="form-container">
+          <form id="quote-topic">
+            <input
+              type="text"
+              placeholder="Enter a topic"
+              class="generator"
+              id="user-input"
+              class="instruction"
+            />
+            <input
+              type="submit"
+              value="Get Quote"
+              placeholder="Get Quote"
+              class="submit-button"
+            />
+          </form>
+          <div class="hint">i.e. Cats, Bats, Vampires, etc.</div>
+        </div>
+        <div class="quote hidden" id="quote"></div>
       </main>
       <footer>
         This AI project was coded by
